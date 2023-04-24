@@ -1,23 +1,24 @@
-# Carbon Calculation#
+#Simple model of Carbon Calculation#
 
 Package calculate carbon adj
 
 ### Run Local as package ###
 
 * Try and running the setup.py file within your terminal and see if it installs the package correctly.
-  ```shell script
-    python setup.py install
-  ```
-  and then run command what is in setup.py console_scripts
 ```shell script
-    yb_carbon_calculation
-  ```
+  python setup.py install
+```
+and then run command what is in setup.py console_scripts
+
+```shell script
+  yb_carbon_calculation
+```
 
 ### Run Local as script ###
 
 ```shell script
     python carbon_analitic.py 
-  ```
+```
 
 
 ### Run package in docker ###

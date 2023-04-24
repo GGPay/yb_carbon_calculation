@@ -1,0 +1,19 @@
+# IDE Fragments
+/.vscode
+*__pycache__*
+*.idea*
+.DS_Store
+
+
+# Environment Files
+.env
+/cert
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__
+*.py[cod]
+*$py.class
+*.pyc
+find . -name "*.pyc" -exec git rm -f "{}" \;
+/.env.local
